@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dietscale</title>
 </head>
+<style>
+    body {background: steelblue; text-align: center; color: #fff;}
+    h1 {margin-top: 100px;}
+    p {color: crimson; font-size: 2rem;}
+    ul {}
+    ul li {list-style: none; padding: 10px;}
+    ul li #height {}
+    ul li #weight {}
+    ul li #goals {}
+    #result {
+        background: lightsalmon;
+        padding: 5px 30px;
+        border: 1px solid #fff;
+        color: #fff; font-weight: 600;
+        }
+</style>
 <body>
     <h1>다이어트 체중계</h1>
-    <p>당신의 건강몸무게를 알아보세요!</p>
+    <p>당신의 건강몸무게를 알아보세요!!</p>
     <ul>
         <li>현재 키 : <input type="text" id="height">cm</li>
         <li>현재 몸무게 : <input type="text" id="weight">kg</li>
         <li>최종 목표 : <input type="text" id="goals"></li>
     </ul>
     <button type="button" id="result">결과보기</button>
+
     <script src="./script/index.js"></script>
 </body>
 </html>
